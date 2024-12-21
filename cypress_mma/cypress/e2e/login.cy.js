@@ -70,9 +70,9 @@ describe("template spec", () => {
       .click();
     cy.get('[data-test="transaction-list"] li')
       .first()
-      .get("span")
+      .find("span")
       .last()
-      .should("contain", montant_char);
+      .should("contain", montant_char).click({force: true});
     //cy.get('.TransactionTitle-titleName').eq(0).should('have.text',myname).click({force: true})
     //cy.get('[data-test="transaction-amount-V790_6QTR"]').click({force: true})
 
