@@ -1,0 +1,17 @@
+{
+  "name": "bash1",
+  "version": "1.0.0",
+  "description": "autom des tests fonctionnels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "280319"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.1"
+  }
+}
