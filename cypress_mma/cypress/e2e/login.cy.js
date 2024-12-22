@@ -3,22 +3,13 @@ describe("template spec", () => {
   let New_Balance;
   let montant;
   let montant_char;
-  let myname;
+  let name;
   let motif;
   let contact;
   let verify;
 
-  it("singin/signout", () => {
-    cy.visit("http://localhost:3000/signin");
-    cy.get('[id="username"]').type("Dina20");
-    cy.get('[id="password"]').type("s3cret");
-    cy.get("button").contains("Sign In").click();
-    cy.get("header button").first().click();
-    cy.get('[data-test="sidenav-user-full-name"]').should(
-      "contain",
-      "Darrel O"
-    );
-    cy.get('[data-test="sidenav-username"]').should("have.text", "@Dina20");
+
+    
 
     //cy.get('[data-test="sidenav-signout"]').contains('Logout').click();
 
@@ -99,4 +90,4 @@ describe("template spec", () => {
         expect(diff).to.equal(montant_a_envoyer);
       });*/
   });
-});
+;

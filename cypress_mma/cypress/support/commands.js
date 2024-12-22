@@ -23,3 +23,25 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//connexion
+Cypress.Commands.add('login', (username, password) => {
+    cy.visit('http://localhost:3000/signin');
+    cy.get('[id="username"]').type(username);
+    cy.get('[id="password"]').type(password);
+    cy.get("button").contains("Sign In").click();
+    //cy.get("header button").first().click();
+    //cy.get('[data-test="sidenav-user-full-name"]').should("contain",myname) 
+   // cy.get('[data-test="sidenav-username"]').should("have.text", `@${username}`);
+});
+
+Cypress.Commands.add('verif', (username, password, myname) => {
+    //cy.visit('http://localhost:3000/signin');
+    cy.get('[id="username"]').type(username);
+    cy.get('[id="password"]').type(password);
+    cy.get("button").contains("Sign In").click();
+    //cy.get("header button").first().click();
+    cy.get('[data-test="sidenav-user-full-name"]').should("contain",myname) 
+    cy.get('[data-test="sidenav-username"]').should("have.text", `@${username}`);
+})
+  
