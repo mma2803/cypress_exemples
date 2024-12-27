@@ -1,0 +1,55 @@
+log{
+  "headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "http://localhost:3000",
+    "vary": "Origin",
+    "access-control-allow-credentials": "true",
+    "etag": "W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"",
+    "date": "Fri, 27 Dec 2024 12:56:03 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "status": 204,
+  "statusText": "No Content",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Cookie": "connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk;connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+    "accept": "/",
+    "cookie": "connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk;connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 128
+  },
+  "requestBody": "{"firstName":"myriem","lastName":"mansar","email":"myriem@gmail.com","phoneNumber":"123456678","defaultPrivacyLevel":"contacts"}",
+  "duration": 3,
+  "allRequestResponses": [
+    {
+      "Request Body": "{"firstName":"myriem","lastName":"mansar","email":"myriem@gmail.com","phoneNumber":"123456678","defaultPrivacyLevel":"contacts"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Cookie": "connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk;connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+        "accept": "/",
+        "cookie": "connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk;connect.sid=s%3AhRS4ZlFvCv_ByfFleV5LDmnoscL8y_cp.VlFQYi6REezJzsb5xxqYk%2BTTWSLRb6tYqMl9Shlhofk",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 128
+      },
+      "Request URL": "http://localhost:3001/users/_XblMqbuoP",
+      "Response Body": null,
+      "Response Headers": {
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "http://localhost:3000",
+        "vary": "Origin",
+        "access-control-allow-credentials": "true",
+        "etag": "W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"",
+        "date": "Fri, 27 Dec 2024 12:56:03 GMT",
+        "connection": "keep-alive",
+        "keep-alive": "timeout=5"
+      },
+      "Response Status": 204
+    }
+  ]
+}
