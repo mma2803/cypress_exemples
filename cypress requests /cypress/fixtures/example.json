@@ -53,3 +53,101 @@ log{
     }
   ]
 }
+
+
+
+
+
+
+{
+  "body": {
+    "user": {
+      "id": "_XblMqbuoP",
+      "uuid": "0dcbd9f2-53bd-4b5e-bbfc-00c1f7eb703e",
+      "firstName": "myriem",
+      "lastName": "mansar",
+      "username": "Dina20",
+      "password": "$2a$10$nSaCsTPTtbbPTnFXBH0GZu0ExpNMud3d1IuKOC/6a9gwAHkdhppeu",
+      "email": "myriem@gmail.com",
+      "phoneNumber": "1234523",
+      "avatar": "https://avatars.dicebear.com/api/human/_XblMqbuoP.svg",
+      "defaultPrivacyLevel": "contacts",
+      "balance": 158880,
+      "createdAt": "2023-05-21T05:01:54.594Z",
+      "modifiedAt": "2024-03-07T14:11:52.161Z"
+    }
+  },
+  "headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "http://localhost:3000",
+    "vary": "Origin",
+    "access-control-allow-credentials": "true",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "454",
+    "etag": "W/"1c6-i9IYJ7gNY+R7vQb3DyUF+FiiRLs"",
+    "date": "Fri, 27 Dec 2024 19:45:44 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Cookie": "connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c;connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+    "accept": "/",
+    "cookie": "connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c;connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 128
+  },
+  "requestBody": "{"firstName":"myriem","lastName":"mansar","email":"myriem@gmail.com","phoneNumber":"123456678","defaultPrivacyLevel":"contacts"}",
+  "duration": 2,
+  "allRequestResponses": [
+    {
+      "Request Body": "{"firstName":"myriem","lastName":"mansar","email":"myriem@gmail.com","phoneNumber":"123456678","defaultPrivacyLevel":"contacts"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Cookie": "connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c;connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+        "accept": "/",
+        "cookie": "connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c;connect.sid=s%3A5FgL7afutCDcBErqp0fj3P5RqbfKBVGf.z8FS99Kz5oA2hnyF4h6owJMPF0DSGCDOwRwN8UNdU5c",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 128
+      },
+      "Request URL": "http://localhost:3001/checkAuth",
+      "Response Body": {
+        "user": {
+          "id": "_XblMqbuoP",
+          "uuid": "0dcbd9f2-53bd-4b5e-bbfc-00c1f7eb703e",
+          "firstName": "myriem",
+          "lastName": "mansar",
+          "username": "Dina20",
+          "password": "$2a$10$nSaCsTPTtbbPTnFXBH0GZu0ExpNMud3d1IuKOC/6a9gwAHkdhppeu",
+          "email": "myriem@gmail.com",
+          "phoneNumber": "1234523",
+          "avatar": "https://avatars.dicebear.com/api/human/_XblMqbuoP.svg",
+          "defaultPrivacyLevel": "contacts",
+          "balance": 158880,
+          "createdAt": "2023-05-21T05:01:54.594Z",
+          "modifiedAt": "2024-03-07T14:11:52.161Z"
+        }
+      },
+      "Response Headers": {
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "http://localhost:3000",
+        "vary": "Origin",
+        "access-control-allow-credentials": "true",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "454",
+        "etag": "W/"1c6-i9IYJ7gNY+R7vQb3DyUF+FiiRLs"",
+        "date": "Fri, 27 Dec 2024 19:45:44 GMT",
+        "connection": "keep-alive",
+        "keep-alive": "timeout=5"
+      },
+      "Response Status": 200
+    }
+  ]
+}
